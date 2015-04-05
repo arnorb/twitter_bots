@@ -17,9 +17,9 @@ third_tuesday = calendar.Calendar(1).monthdatescalendar(current_year,current_mon
 fundir = [first_tuesday, third_tuesday, today]
 
 CONSUMER_KEY = 'qs05jklgCleQ3c7hIA2OvbOV4'
-CONSUMER_SECRET = 'QqgnOBK2FlhSd0eDsWGkdi7OF90O3Mu6wIYNHcVmWytqyBGeFm'
+CONSUMER_SECRET = ''
 ACCESS_TOKEN = '3137303357-0YCjcqiVZuKm6w1OBxNo7wKohEJ4KO9j5gUjHTe'
-ACCESS_SECRET = '6rFOxwRGAsOr3mCVBz2KrdgQns4caIpmezIpqc7lVq7RY'
+ACCESS_SECRET = ''
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
